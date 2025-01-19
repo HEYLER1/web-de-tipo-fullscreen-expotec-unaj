@@ -1,0 +1,41 @@
+/* RoboticEventCard.module.css */
+.container {
+  display: flex;
+  justify-content: center !important; /* Centra horizontalmente */
+  align-items: center !important; /* Centra verticalmente */
+  min-height: 100vh !important; /* Altura mínima */
+  max-height: 100vh; /* Altura máxima */ 
+  overflow-y: auto; /* Habilita el desplazamiento vertical */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo transparente */
+}
+.scroll-container {
+  background: transparent transparent; /* Color de fondo transparente */
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important; /* Centrar contenido dentro de la tarjeta */
+  padding: 16px !important;
+  border-radius: 8px !important;
+  transition: transform 0.2s !important;
+  margin: 16px; /* Añade margen para evitar que las tarjetas se peguen entre sí */
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo de la tarjeta transparente */
+}
+
+/* Estilos para los iconos */
+.icon {
+  margin-right: 8px !important; /* Margen entre el icono y el texto */
+}
+
+/* Lista de eventos */
+.list {
+  width: 100%;
+  padding: 0; /* Asegúrate de que no haya padding extra */
+}
+
+/* Estilo de los botones */
+.button {
+  margin-top: 8px; /* Margen superior para los botones */
+}

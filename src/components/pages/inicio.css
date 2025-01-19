@@ -1,0 +1,67 @@
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Se mueve la mitad del ancho, ya que duplicamos los logos */
+  }
+  
+  .animate-scroll {
+    animation: scroll 30s linear infinite; /* Ajusta la duración a 30 segundos para que sea más lento */
+    display: flex;
+  }
+  .custom-font {
+    font-family: 'Agdasima', sans-serif;
+  }
+/* Estilos para el contenedor principal de Inicio */
+.inicio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+  }
+  
+  /* Estilos para el banner y contacto */
+  .banner-container, 
+  .contacto-container {
+    width: 100%;
+    max-width: 1200px; /* Limitar el ancho máximo en pantallas grandes */
+    margin: 0 auto;
+  }
+  
+  /* Ajustes para el contenedor del Banner */
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  /* Ajustes para el contenedor de Contacto */
+  .contacto-container {
+    width: 100%;
+    padding: 0px;
+  }
+  
+  /* Ajustes responsivos para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .inicio-container {
+      padding: 0px;
+    }
+  
+    .banner-container,
+    .contacto-container {
+      padding: 0px;
+    }
+  }
+  
+  /* Ajustes para pantallas aún más pequeñas, como teléfonos */
+  @media (max-width: 480px) {
+    .banner-container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .contacto-container {
+      padding: 8px;
+    }
+  }
+  

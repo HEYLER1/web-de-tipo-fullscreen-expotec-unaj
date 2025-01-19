@@ -1,0 +1,49 @@
+html, body {
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .parent-container { /* Asegúrate de que esto sea correcto para tu contenedor principal */
+    height: 100vh !important; /* Ajuste para pantalla completa */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .scroll-container {
+    height: 100% !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    width: 100% !important;
+    padding: 10px !important;
+    box-sizing: border-box !important;
+    background: transparent !important; /* Color de fondo transparente */
+    scrollbar-width: thin !important; /* Para Firefox */
+    scrollbar-color: transparent transparent !important; /* Para Firefox */
+  }
+  #robotic-header {
+  font-family: 'Orbitron', sans-serif !important; /* Fuente para el encabezado */
+  color: #d32f2f !important; /* Color del texto */
+  margin-bottom: -22px !important; /* Espacio inferior */
+  font-size: 2.8rem !important; /* Tamaño de fuente por defecto */
+}
+
+@media (max-width: 1200px) {
+    #robotic-header {
+    font-size: 2.5rem !important; /* Tamaño de fuente para pantallas medianas */
+  }
+}
+
+@media (max-width: 900px) {
+    #robotic-header {
+    font-size: 2.2rem !important; /* Tamaño de fuente para pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 600px) {
+    #robotic-header {
+    font-size: 1rem !important; /* Tamaño de fuente para pantallas pequeñas */
+  }
+}
+  

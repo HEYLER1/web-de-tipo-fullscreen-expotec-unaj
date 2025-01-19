@@ -1,0 +1,175 @@
+
+  .container {
+    max-width: 800px; /* Cambia este valor según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px;
+    padding-bottom: 180px; /* Espacio adicional en la parte inferior */
+    overflow-y: auto; /* Mantiene el scroll vertical */
+    max-height: 90vh; /* Limita la altura del contenedor */
+    position: relative; /* Necesario para el uso de pseudo-elementos */
+  }
+  
+  /* Oculta la barra de desplazamiento para Webkit (Chrome, Safari) */
+  .container::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento */
+  }
+  
+  /* Para Firefox */
+  .container {
+    scrollbar-width: thin; /* Hace la barra de desplazamiento más delgada */
+    scrollbar-color: transparent transparent; /* Oculta el color de la barra de desplazamiento */
+  }
+  
+  /* Si deseas aplicar un estilo diferente a la barra de desplazamiento */
+  .container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5); /* Color de la barra de desplazamiento */
+    border-radius: 10px; /* Esquinas redondeadas */
+  }
+  
+  .container::-webkit-scrollbar-track {
+    background: transparent; /* Color del fondo de la barra de desplazamiento */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff; /* Cambia el color del título a blanco para mejor contraste */
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    color: #e0e0e0; /* Color del subtítulo más claro */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    align-items: start;
+  }
+  
+  /* Sección de información con fondo semi-transparente */
+  .infoSection {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad para combinar con el azul */
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .infoTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a; /* Color del título de la sección de info */
+  }
+  
+  .infoCard {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .infoIcon {
+    padding: 0.75rem;
+    background-color: #e0e7ff;
+    border-radius: 0.5rem;
+    color: #4f46e5;
+  }
+  
+  .infoText {
+    flex: 1;
+  }
+  
+  .infoLabel {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1a1a1a; /* Color de las etiquetas */
+    margin-bottom: 0.25rem;
+  }
+  
+  .infoValue {
+    font-size: 0.875rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Formulario con fondo semi-transparente */
+  .form {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad para combinar con el azul */
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.448);
+  }
+  
+  .formGroup {
+    margin-bottom: 1.5rem;
+  }
+  
+  .label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151; /* Color de las etiquetas */
+    margin-bottom: 0.5rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e5ebe7;
+    transition: all 0.2s;
+    outline: none;
+    color: #000; /* Asegura que el color del texto sea negro */
+  }
+  
+  .textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e5e7eb;
+    transition: all 0.2s;
+    outline: none;
+    min-height: 150px;
+    resize: vertical;
+    color: #000;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .mensaje {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #f0fdf4;
+    color: #050505;
+  }
+  
+  .scroll-hidden {
+    overflow: hidden; /* Esto es opcional si necesitas un área específica */
+  }
+  

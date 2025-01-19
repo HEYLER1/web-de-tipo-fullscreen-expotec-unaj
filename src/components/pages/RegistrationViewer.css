@@ -1,0 +1,43 @@
+/* RegistrationViewer.css */
+.registration-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .registration-paper {
+    margin-bottom: 24px;
+    padding: 16px;
+  }
+  
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  @media (min-width: 600px) {
+    .registration-form {
+      flex-direction: row;
+    }
+  }
+  
+  .registration-button {
+    min-width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .registration-button {
+      min-width: auto;
+    }
+  }
+  
+  .table-container {
+    margin-top: 16px;
+  }
+  
+  .dialog-paper {
+    margin: 16px;
+    max-width: 100%;
+  }
+  
