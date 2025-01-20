@@ -1,4 +1,4 @@
-# 🎉 **Bienvenidos a Expoferia** 🎉
+# 🎉 **Bienvenidos a la pagina web de la III olimpiada robotica ** 🎉
 ## 📚 **Descripción**
 Este proyecto tiene como objetivo proporcionar una plataforma para inscripciones en competencias de robótica. Los usuarios pueden registrarse, realizar pagos, y seguir el progreso de su inscripción.
 
