@@ -32,10 +32,9 @@ Para poner en marcha este proyecto en tu máquina local, sigue estos pasos:
 
 | 🧑‍💻 **Miembro**           | 👤 **Rol**              | 🌍 **Enlace GitHub**                                   |
 |---------------------------|-------------------------|--------------------------------------------------------|
-| **[Tu Nombre](https://github.com/TuUsuario)** | Desarrollador principal | [GitHub](https://github.com/TuUsuario)                 |
-| **[Colaborador 1](https://github.com/Colaborador1)** | Soporte técnico         | [GitHub](https://github.com/Colaborador1)              |
-| **[Colaborador 2](https://github.com/Colaborador2)** | Diseñador UI/UX         | [GitHub](https://github.com/Colaborador2)              |
-| **[Colaborador 3](https://github.com/Colaborador3)** | Tester/QA               | [GitHub](https://github.com/Colaborador3)              |
+| **[jayler Machaca](https://github.com/TuUsuario)** | Desarrollador principal | [GitHub](https://github.com/TuUsuario)                 |
+| **[Orlando Yash](https://github.com/yash-dev-icd)** |  Diseñador UI/UX        | [GitHub](https://github.com/yash-dev-icd)              |
+         |
 
 
 
