@@ -30,6 +30,8 @@ Para poner en marcha este proyecto en tu máquina local, sigue estos pasos:
    git clone https://github.com/HEYLER1/web-de-tipo-fullscreen-expotec-unaj.git
 
 
+## 👥 **Equipo**
+
 | 🧑‍💻 **Miembro**           | 👤 **Rol**              | 🌍 **Enlace GitHub**                                   |
 |---------------------------|-------------------------|--------------------------------------------------------|
 | **[jayler Machaca](https://github.com/HEYLER1)** | Desarrollador principal | [GitHub](https://github.com/HEYLER1)                 |
