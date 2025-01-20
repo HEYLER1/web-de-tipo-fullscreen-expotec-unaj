@@ -28,35 +28,15 @@ Para poner en marcha este proyecto en tu máquina local, sigue estos pasos:
    git clone https://github.com/HEYLER1/web-de-tipo-fullscreen-expotec-unaj.git
 
 
+## 👥 **Equipo**
 
+| 🧑‍💻 **Miembro**           | 👤 **Rol**              | 🌍 **Enlace GitHub**                                   |
+|---------------------------|-------------------------|--------------------------------------------------------|
+| **[Tu Nombre](https://github.com/TuUsuario)** | Desarrollador principal | [GitHub](https://github.com/TuUsuario)                 |
+| **[Colaborador 1](https://github.com/Colaborador1)** | Soporte técnico         | [GitHub](https://github.com/Colaborador1)              |
+| **[Colaborador 2](https://github.com/Colaborador2)** | Diseñador UI/UX         | [GitHub](https://github.com/Colaborador2)              |
+| **[Colaborador 3](https://github.com/Colaborador3)** | Tester/QA               | [GitHub](https://github.com/Colaborador3)              |
 
----
-
-### **2. Elementos clave para un `README.md` atractivo**
-1. **Emojis**: Usa emojis para darle vida a los títulos y secciones. Esto hace que el archivo sea más visualmente interesante y ayuda a organizar la información.
-   - Por ejemplo, usa `🎉` para la bienvenida, `🚀` para características, `💻` para tecnologías, etc.
-
-2. **Badges**: Los "badges" (insignias) son pequeños iconos que indican el estado del proyecto, tecnologías utilizadas, entre otros. Puedes agregarlos fácilmente desde sitios como [Shields.io](https://shields.io/).
-
-3. **Capturas de pantalla**: Si es un proyecto visual, agrega imágenes o capturas de pantalla para mostrar el producto final. Esto hace que tu README sea más atractivo y útil.
-
-4. **Enlaces útiles**: Incluye enlaces a la documentación, a la página web del proyecto, o cualquier recurso relacionado.
-
-5. **Instrucciones claras**: Proporciona pasos claros para la instalación y uso del proyecto. Incluye comandos y asegúrate de que sean fáciles de seguir.
-
-6. **Contribuciones**: Anima a otros a contribuir a tu proyecto con instrucciones claras sobre cómo pueden hacerlo.
-
-7. **Licencia**: Si es un proyecto público o de código abierto, incluye la licencia para que otros sepan qué pueden hacer con tu código.
-
----
-
-### **3. Consejos adicionales**
-- **Usar una buena tipografía**: Los títulos y subtítulos deben ser fáciles de leer y usar un estilo consistente.
-- **Estructura limpia**: Organiza el contenido en secciones claras y fáciles de encontrar.
-
----
-
-Con estos pasos y consejos, tu archivo `README.md` será atractivo, moderno y profesional. Si quieres hacer algún cambio específico o añadir algo más, ¡avísame y te ayudo! 😊
 
 
 
