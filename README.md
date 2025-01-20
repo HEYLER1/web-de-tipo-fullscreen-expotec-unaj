@@ -1,4 +1,6 @@
 # 🎉 **Bienvenidos a Expoferia** 🎉
+## 📚 **Descripción**
+Este proyecto tiene como objetivo proporcionar una plataforma para inscripciones en competencias de robótica. Los usuarios pueden registrarse, realizar pagos, y seguir el progreso de su inscripción.
 
 **Expoferia** es una plataforma para la exposición y competencia de proyectos robóticos. Aquí puedes encontrar todo lo relacionado con los eventos, inscripciones y más.
 
