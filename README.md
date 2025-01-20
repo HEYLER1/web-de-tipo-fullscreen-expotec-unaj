@@ -34,6 +34,7 @@ Para poner en marcha este proyecto en tu máquina local, sigue estos pasos:
 |------------------------------------------------|-------------------------|--------------------------------------------------------|
 | ![jayler Machaca](https://avatars.githubusercontent.com/u/HEYLER1?v=4) **[jayler Machaca](https://github.com/HEYLER1)** | Desarrollador principal | [GitHub](https://github.com/HEYLER1)                   |
 | ![Orlando Yash](https://avatars.githubusercontent.com/u/yash-dev-icd?v=4) **[Orlando Yash](https://github.com/yash-dev-icd)** | Diseñador UI/UX         | [GitHub](https://github.com/yash-dev-icd)              |
+             |
 
 
 
